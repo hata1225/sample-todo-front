@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-color: yellow;
+}
+
+main {
+  height: 95vh;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  margin: 10px;
+}
+
+/* クラスのタグにcssを与えるときは、「#」を使う */
+#todo-area {
+  height: 600px;
+  width: 500px;
+  background-color: #ffffff;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0 10px;
+  padding: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.button-area {
+  display: flex;
+  gap: 10px;
+}
+
+footer {
+  height: 200px;
+  background-color: yellow;
+}

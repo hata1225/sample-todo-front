@@ -29,6 +29,11 @@ h1 {
   background-color: #ffffff;
 }
 
+#todo-item-area {
+  height: 549px;
+  overflow: scroll;
+}
+
 .todo-item {
   display: flex;
   justify-content: space-between;
